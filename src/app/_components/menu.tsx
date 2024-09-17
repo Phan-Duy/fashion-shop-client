@@ -6,11 +6,12 @@ import Link from "next/link";
 
 const Menu = () => {
   const [open, setOpen] = useState(false);
+
   return (
     <div className="">
       <Image
         src="/assets/menu.png"
-        alt=""
+        alt="Menu icon"
         width={28}
         height={28}
         className="cursor-pointer"
@@ -32,3 +33,4 @@ const Menu = () => {
 };
 
 export default Menu;
+
