@@ -4,8 +4,8 @@ import { z } from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useMutation } from "@tanstack/react-query";
 import { useNavigate } from "react-router";
-import { login } from "../../services/auth-api";
-import { authLocal } from "../../utils/authLocal";
+import { login } from "../../../services/auth-api";
+import { authLocal } from "../../../utils/authLocal";
 
 const schema = z.object({
   email: z.string().min(3, "name min = 3").max(50, "name max = 50"),
