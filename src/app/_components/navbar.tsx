@@ -48,7 +48,13 @@ const Navbar = () => {
               About
             </Link>
             <Link
-              href="/contact"
+              href="/policy"
+              className={isActive("/policy") ? "active" : ""}
+            >
+              Policy
+            </Link>
+            <Link
+              href="#contact"
               className={isActive("/contact") ? "active" : ""}
             >
               Contact
