@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import useScrollToTop from "../hooks/scroll";
+import useScrollToTop from "../../hooks/scroll";
 
 function About() {
 	useScrollToTop(); 
